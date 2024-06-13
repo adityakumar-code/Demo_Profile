@@ -1,0 +1,117 @@
+*{
+	/* background-color:#FFD6C0; */
+	margin:0px;
+	padding:0px;
+	font-family:Algerian;
+	color:black;
+}
+  /* Custom styles can be added here */
+  .img1{
+	  height:70vh;
+	  width:60vh;
+	  text-align:right;
+	  
+  }
+  
+  #pfl{
+		height:200px;
+		width:150px;
+  }
+   .profile-img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+	.profile-img:hover {
+      transform: scale(1.1);
+    }
+    .project-header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .project-header h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+    .project-info p {
+      font-size: 18px;
+    }
+    .feature-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .feature-item h3 {
+      color: #007bff;
+    }
+
+	/* Add hover effect on all images */
+    .img-fluid:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+	  overflow:hidden;
+	  display:flex;
+    }
+
+	
+
+	.back{
+		/* width:100%; */
+		/* height:100%; */
+		margin-top:0px;
+		margin-left:0px;
+		POSITION: fixed;
+		background-color:#D4C2FC;
+		z-index: -1;
+		display:cover;
+	}
+
+	.text-center{
+		color:white;
+	}
+	body{
+		bgcolor:yellow;
+	}
+	#bold{
+	color:#9C4FC2;
+	}
+	.navbar-toggler{
+	padding-right:300px;
+	}
+	
+	#hello{
+		margin-right:400px;
+	}
+	
+	#hii{
+	color:#440381;
+	}
+	
+	#bar{
+		background-color:#9C4FC2;
+	}
+	
+	.nav-link{
+		margin-right:20px;
+	}
+
+	#chor{
+		color:black;
+	}
+	
+ 
+#footer{
+	background-color:#9C4FC2;
+}
+
+.fa-brands{
+	z-index:1;
+	color:red;
+}
